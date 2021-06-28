@@ -35,9 +35,9 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Container(
-          height: 48,
+          height: 200,
           child: RiveAnimation.asset(
-            "flare/message-icon.riv",
+            "rive/message-icon.riv",
             animations: ["Hover_loop"],
             controllers: [ChatIconController("Hover_loop")],
           ),
